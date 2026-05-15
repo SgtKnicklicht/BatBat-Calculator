@@ -4,22 +4,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#18181b" />
-  <meta name="description" content="Connected Battery CF App for electrode mass, standards, C-rate and CF current calculations." />
+  <meta name="description" content="Connected Battery CF App for electrode mass, standards, C-rate and current calculations." />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="style.css?v=12" />
-  <title>Battery CF App</title>
+  <link rel="stylesheet" href="style.css?v=13" />
+  <title>Battery C-Rate App</title>
 </head>
 <body>
   <div class="wrap">
     <header class="hero">
       <div>
-        <h1>Battery CF App</h1>
+        <h1>Battery C-Rate App</h1>
         <p>Fast electrode mass → AM loading → C-rate currents. Data stays local on this device.</p>
       </div>
       <div class="top-actions">
         <button id="newElectrodeTop" class="btn primary">+ Electrode</button>
         <button id="newBatchTop" class="btn primary">+ Batch</button>
-        <button id="exportBtn" class="btn">Export JSON</button>
+        <button id="exportBtn" class="btn">Backup JSON</button>
         <label class="btn">Import<input id="importFile" type="file" accept="application/json,.json" hidden /></label>
       </div>
     </header>
@@ -28,11 +28,12 @@
     <main id="app"></main>
   </div>
 
-  <script src="app.js?v=12"></script>
-  <script src="patch-library-order.js?v=12"></script>
-  <script src="patch-input-focus.js?v=12"></script>
-  <script src="patch-archive-batches.js?v=12"></script>
-  <script src="patch-excel-export.js?v=12"></script>
-  <script src="patch-input-types.js?v=12"></script>
+  <script src="app.js?v=13"></script>
+  <script src="patch-library-order.js?v=13"></script>
+  <script src="patch-input-focus.js?v=13"></script>
+  <script src="patch-archive-batches.js?v=13"></script>
+  <script src="patch-excel-export.js?v=13"></script>
+  <script src="patch-input-types.js?v=13"></script>
+  <script src="patch-workflow-improvements.js?v=13"></script>
 </body>
 </html>
