@@ -1,0 +1,12 @@
+{
+  "name": "Connected Battery CF App",
+  "short_name": "Battery CF",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#18181b",
+  "description": "Lokaler Battery C-rate und CF Rechner für Materialien, Batches und Elektroden.",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
